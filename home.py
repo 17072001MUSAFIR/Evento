@@ -278,4 +278,4 @@ def dashboard_cancel(id10):
     return redirect("/dashboard")
 
 if __name__ == '__main__':
-    app.run()
+    app.run('0.0.0.0', 8080)
